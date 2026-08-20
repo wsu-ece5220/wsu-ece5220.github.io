@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ECE 3210
-tagline: Course webpage for ECE 3210 at Weber State University
-description: Course webpage for ECE 3210 at Weber State University
+title: ECE 5220
+tagline: Course webpage for ECE 5220 at Weber State University
+description: Course webpage for ECE 5220 at Weber State University
 author: Erc Gibbons
-course_documents_url: &course_docs_url https://github.com/wsu-ece3210/course-documents
+course_documents_url: &course_docs_url https://github.com/wsu-ece5220/course-documents
 jupyter_hub_url: &jupyter_hub_url https://quick.users.weber.edu
 # baseurl: "/ece2260" # the subpath of your site, e.g. /blog
 # url: "https://kevinl.info" # the base hostname & protocol for your site, e.g. http://example.com

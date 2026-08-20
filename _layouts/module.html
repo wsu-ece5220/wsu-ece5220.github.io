@@ -1,10 +1,12 @@
 <h2 class="fs-6" id="{{ page.title | slugify }}">{{ page.title }}</h2>
-<div class="module-header">
+<div class="module-header{% unless page.has_labs %} module-header-no-labs{% endunless %}">
   <div class="header-item">Week</div>
   <div class="header-item">Content</div>
   <div class="header-item text-center">Homework</div>
+  {% if page.has_labs %}
   <div class="header-item text-center">Lab</div>
+  {% endif %}
 </div>
-<div class="module">
+<div class="module{% unless page.has_labs %} module-no-labs{% endunless %}">
   {{ content }}
 </div>
