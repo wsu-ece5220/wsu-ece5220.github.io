@@ -7,8 +7,6 @@ nav_exclude: true
 # ECE 5220 Image Processing
 
 
-# Course description
-
 Advanced image processing theory and methods. Topics include digital image formation, transformation, filtering, enhancements, segmentation and morphological processing.
 
 
