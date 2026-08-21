@@ -4,19 +4,21 @@ layout: home
 nav_exclude: true
 ---
 
-# ECE 5220 Signals and Systems
+# ECE 5220 Image Processing
 
-Topics related to analyzing linear time-invariant continuous and discrete systems and signal transformations, convolution, frequency spectra, Laplace transforms, Z transforms, and fast Fourier transforms. This course is a combination of lectures and laboratory exercises. Laboratory activities include computer simulation, analysis, and numerical modeling of signals and systems.
+
+# Course description
+
+Advanced image processing theory and methods. Topics include digital image formation, transformation, filtering, enhancements, segmentation and morphological processing.
 
 
 # Learning outcomes
 
 The student will:
-- Analyze LTI system responses in the time domain
-- Represent and manipulate continuous-time signals in the frequency domain
-- Represent and manipulate discrete-time signals in the frequency domain
-- Design, build, and analyze linear and time-invariant systems in hardware
-- Perform signal processing tasks in software
+- A knowledge of low-level analytical tools for image processing such as spatial and frequency filtering, image sharpening, noise reduction, and image restoration
+- Image compression
+- Basic computer vision techniques such as image segmentation and classification
+
 
 <a href="{{ '/office_hours' | relative_url }}" class="btn btn-purple">Office Hours</a>
 <a href="{{ site.course_documents_url }}" class="btn btn-purple">Course Documents</a>
